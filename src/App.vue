@@ -1,4 +1,4 @@
-<script setup>
+<script setup>пше 
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
