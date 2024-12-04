@@ -98,6 +98,10 @@ header{
     margin-bottom: 50px;
 }
 
+.intro-bottom{
+    margin: 0 auto;
+}
+
 .button_main{
     width: 260px;
     height: 80px;
@@ -105,10 +109,70 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     font-size: 30px;
     border-radius: 100px;
     border: none;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
                 0 -10px 20px #FFF; 
+}
+
+.about__me{
+    margin-bottom: 295px;
+}
+
+.about__me-title{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'CormorantInfant-Medium';
+    margin-bottom: 80px;
+}
+
+.about__me-information{
+    display: flex;
+    justify-content: center;
+}
+
+.about__me-photo{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+                0 -10px 20px #FFF;
+    margin-right: 100px;
+}
+
+.about__me-photo-iam{
+    max-width: 340px;
+}
+
+.about-us__name-text-title{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about-us__name-text-main-one{
+    font-family: 'CormorantInfant-Light'; 
+    font-size: 24px;
+    max-width: 590;
+    margin-bottom: 10px;
+}
+
+.about-us__name-text-main-two{
+    font-family: 'CormorantInfant-Light'; 
+    font-size: 24px;
+    max-width: 590;
+    margin-bottom: 28px;
+}
+
+.services__title{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'CormorantInfant-Medium';
+    margin-bottom: 80px;
 }
