@@ -351,3 +351,51 @@ header{
     display: flex;
     justify-content: center;
 }
+
+footer{
+    background-color: #DEE1FD;
+}
+
+.footer{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer__block{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__nav-list-link{
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 24px;    
+    position: relative;
+    transition: color .15s linear, background .15s linear;
+}
+
+.footer__nav-list {
+    list-style: none;
+    gap: 70px;
+    margin-right: 100px;
+}
+
+.icon{
+    width: 40px;
+}
+
+.footer__icons{
+    position: absolute;
+    right: 169px;
+}
+
+.footer__years{
+    background-color: #DEE1FD;
+    text-align: center;
+}
