@@ -313,3 +313,41 @@ header{
     font-size: 24px;
     width: 250px;
 }
+
+.feedback{
+    margin-bottom: 110px;
+}
+
+.feedback__title{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'CormorantInfant-Medium';
+    margin-bottom: 80px;
+}
+
+.feedback__podtext{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comment{
+    width: 500px;
+    height: 80px;
+    font-size: 24px;
+    border-radius: 50px;
+    border: 2px solid #121723;
+    background-color: #FFF3E8;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    text-transform: capitalize
+}
+
+.feedback__comment{
+    display: flex;
+    justify-content: center;
+}
