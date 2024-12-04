@@ -3,11 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./font/font.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web-designer</title>
   </head>
   <body>
     <div id="app"></div>
+    <header>
+      <div class="control header_main">
+        <div class="header_block">
+          <ul class="header__nav-list">
+            <li class="header__nav-list-item">
+              <a href="#main" class="header__nav-list-link">
+                Главная
+              </a>
+            </li>
+            <li class="header__nav-list-item">
+              <a href="#about_me" class="header__nav-list-link">
+                Обо мне
+              </a>
+            </li>
+            <li class="header__nav-list-item">
+              <a href="#services" class="header__nav-list-link">
+                Услуги
+              </a>
+            </li>
+            <li class="header__nav-list-item">
+              <a href="#order" class="header__nav-list-link">
+                Заказать
+              </a>
+            </li>
+            <li class="header__nav-list-item">
+              <a href="#account" class="header__nav-list-link">
+                Личный кабинет
+              </a>
+            </li>
+          </ul> 
+          <div class="header__account">
+            <a class="header__nav-list-link-account">
+              Марина
+            </a>
+            <button class="button">
+              Выйти
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="intro">
+      <div class="control">
+        <div class="intro__title">
+          <p class="intro__title-text text-one">СОЗДАЮ</p>
+          <p class="intro__title-text text-two">ЭМОЦИОНАЛЬНЫЕ ДИЗАЙНЫ</p>
+          <p class="intro__title-text text-three">С ПРОДУМАННОЙ</p>
+          <p class="intro__title-text text-four">СТРУКТУРОЙ</p>
+        </div>
+        <button class="button_main">
+          Услуги
+        </button>
+      </div>
+    </section>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
