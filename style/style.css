@@ -65,6 +65,7 @@ header{
     width: 141px;
     height: 42px;
     cursor: pointer;
+    background-color: #DEE1FD;
     font-size: 24px;
     border-radius: 100px;
     border: none;
@@ -106,6 +107,7 @@ header{
     width: 260px;
     height: 80px;
     cursor: pointer;
+    background-color: #DEE1FD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +216,7 @@ header{
     align-items: center;
     overflow: hidden;
     width: 1160px;
-    height: 700px;
+    height:640px;
     margin: 0 auto;
     display: flex;
     gap: 20px;
@@ -248,4 +250,66 @@ header{
     border-radius: 100px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
                 0 -10px 20px #FFF;
+}
+
+.stages{
+    margin-bottom: 250px;
+}
+
+.stages__title{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'CormorantInfant-Medium';
+    margin-bottom: 80px;
+}
+
+.stages__details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.stage{
+    font-size: 30px;
+    padding: 18px 30px;
+    border: 2px solid #121723;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+                0 -10px 20px #FFF;
+}
+
+.stage_four{
+    padding: 18px 22px;
+    border: none;
+    background-color: #DEE1FD;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+                0 -10px 20px #FFF;
+}
+
+.stages__point{
+    width: 30px;
+}
+
+.stages__line{
+    height: 2px;
+    width: 286px;
+}
+
+.stages__text{
+    display: flex;
+    gap: 116px;
+}
+
+.stages__text-title{
+    font-size: 36px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.stages__text-podtext{
+    font-family: 'CormorantInfant-Light'; 
+    font-size: 24px;
+    width: 250px;
 }
