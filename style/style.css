@@ -35,7 +35,18 @@ header{
     text-decoration: none;
     font-size: 24px;    
     position: relative;
-    transition: color .15s linear, background .15s linear;
+    transition: color .15s linear;
+}
+
+.header__nav-list-link:hover{
+    color: #AA9DFA;
+}
+
+.header__nav-list-link:active{
+    color: #121723;
+    background-color: #AA9DFA ;
+    box-shadow: 0 0 20px #AA9DFA,
+                inset 0 0 20px #FFF3E8;
 }
 
 .header__nav-list-link-account{
@@ -69,8 +80,17 @@ header{
     font-size: 24px;
     border-radius: 100px;
     border: none;
+    transition: background .15s linear;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
                 0 -10px 20px #FFF;
+}
+
+.button:hover{
+    background-color: #c3c9ef;
+}
+
+.button:active{
+    background-color: #99a3da;
 }
 
 .intro{
@@ -112,10 +132,19 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    transition: background .15s linear;
     border-radius: 100px;
     border: none;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
                 0 -10px 20px #FFF; 
+}
+
+.button_main:hover{
+    background-color: #c3c9ef;
+}
+
+.button_main:active{
+    background-color: #99a3da;
 }
 
 .about__me{
@@ -388,6 +417,7 @@ footer{
 
 .icon{
     width: 40px;
+    cursor: pointer;
 }
 
 .footer__icons{
