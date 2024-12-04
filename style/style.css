@@ -181,23 +181,49 @@ header{
     max-width: 340px;
 }
 
-.about-us__name-text-title{
+.about-me__name-text-title{
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-.about-us__name-text-main-one{
+.about-me__name-text-main-one{
     font-family: 'CormorantInfant-Light'; 
     font-size: 24px;
     max-width: 590;
     margin-bottom: 10px;
 }
 
-.about-us__name-text-main-two{
+.about-me__name-text-main-two{
     font-family: 'CormorantInfant-Light'; 
     font-size: 24px;
     max-width: 590;
     margin-bottom: 28px;
+}
+
+.up__btn{
+    margin-top: 100vw;
+}
+
+.up{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #a091fd;
+    transition: color .15s linear;
+}
+
+.up__btn:hover .up{
+    color: #7b71bc;
+}
+
+.up__btn:active .up{
+    color: #4b4987;
 }
 
 .services__title{
