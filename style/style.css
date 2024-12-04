@@ -176,3 +176,76 @@ header{
     font-family: 'CormorantInfant-Medium';
     margin-bottom: 80px;
 }
+
+.def{
+    width: 301px;
+    padding: 25px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+                0 -10px 20px #FFF;
+}
+
+.services__def-img{
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.services__def-title{
+    font-size: 36px;
+    width: 100px;
+}
+
+.services__def-text{
+    font-size: 20px;
+    width: 150px;
+    color: #4d5057;
+    margin-bottom: 30px;
+}
+
+.services__bottom{
+    margin: 0 auto;
+}
+
+.services__slider{
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 1160px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.services{
+    margin-bottom: 250px;
+}
+
+.services__slider-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.services__button{
+    width: 80px;
+}
+
+.services__button-details{
+    display: flex;
+    gap: 10px;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+                0 -10px 20px #FFF;
+}
