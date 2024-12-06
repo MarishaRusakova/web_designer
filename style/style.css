@@ -283,7 +283,7 @@ header{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 1280px;
+    width: 128  0px;
     height:640px;
     margin: 0 auto;
     display: flex;
@@ -508,4 +508,77 @@ footer{
 .footer__years{
     background-color: #DEE1FD;
     text-align: center;
+}
+
+.order{
+    margin-top: 110px;
+    margin-bottom: 220px;
+}
+
+.order-title{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'CormorantInfant-Medium';
+    margin-bottom: 80px;
+}
+
+.order__services{
+    margin-bottom: 50px;
+}
+
+.order__one-title{
+    font-size: 36px; 
+    margin-bottom: 30px;   
+}
+
+.order__radio-block{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.order__radio-text{
+    font-family: 'CormorantInfant-Light'; 
+    font-size: 24px;
+}
+
+.order__price-block{
+    width: 200px;
+    height: 80px;
+    font-size: 24px;
+    border-radius: 50px;
+    border: 2px solid #121723;
+    background-color: #FFF3E8;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    text-transform: capitalize
+}
+
+.order__comment-block{
+    width: 400px;
+    height: 200px;
+    font-size: 24px;
+    text-align: start;
+    border-radius: 50px;
+    border: 2px solid #121723;
+    background-color: #FFF3E8;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    text-transform: capitalize
+}
+
+.order__main-block{
+    display: flex;
+    gap: 530px;
+    margin-bottom: 30px;
+}
+
+.order__buttom{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
 }
