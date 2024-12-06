@@ -582,3 +582,41 @@ footer{
     margin: 0 auto;
     align-items: center;
 }
+
+.account{
+    margin-top: 110px;
+    margin-bottom: 220px;
+}
+
+.account-title{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: 'CormorantInfant-Medium';
+    margin-bottom: 80px; 
+}
+
+.account-podtitle{
+    font-size: 36px; 
+    margin-bottom: 30px; 
+}
+
+.output{
+    font-family: 'CormorantInfant-Light'; 
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.account__block{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.account__buttom{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;  
+}
